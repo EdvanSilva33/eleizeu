@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color:#64d8e2 ;
+}
+.hero img{
+    width: 100%;
+    
+}
+.redes_sociais{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.redes_sociais .bi{
+    font-size: 32px;
+}
+.color-bar{
+   
+    padding-left: 150px;
+    background: rgb(18,129,139);
+background: linear-gradient(0deg, rgba(18,129,139,1) 0%, rgba(166,237,243,1) 100%);
+}
+.nav-link{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.flex{
+    
+    padding: 40px;
+    display: flex;
+    justify-content:space-evenly;
+    height: 350px;
+}
+.texto{
+    width: 350px;
+}
+
+.slide-container{
+    z-index: -1;
+    width:400px;
+    height: 300px;
+    background-color: brown;
+}
+.fone{
+margin-right: 10px;
+}
+.fone .bi{
+    font-size: 22px;
+}
+.fone span{
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    .flex {
+      display: block;
+    }
+    .missao{
+        margin-top: 350px;
+    }
+    .fone{
+        display: none;
+        }
+        
+  }
+  
