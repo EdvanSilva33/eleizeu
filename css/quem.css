@@ -1,0 +1,24 @@
+.content{
+    margin-top: 100px;
+    padding: 36px 16px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    
+}
+.texto-base{
+    width: 600px;
+    padding: 16px;
+    margin-right: 50px;
+}
+.texto-base p{
+    text-align: justify;
+}
+.missao_img{
+    width: 450px;
+}
+.missao{
+    width: 100%;
+    max-width: 1200px;
+}
