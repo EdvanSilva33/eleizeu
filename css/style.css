@@ -64,11 +64,13 @@ background: linear-gradient(0deg, rgba(18,129,139,1) 0%, rgba(166,237,243,1) 100
     margin-bottom: 150px;
     padding: 40px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     height: 350px;
+    
 }
 .texto{
     width: 350px;
+    text-align: justify;
 }
 .texto a{
     text-decoration: none;
@@ -83,7 +85,16 @@ background: linear-gradient(0deg, rgba(18,129,139,1) 0%, rgba(166,237,243,1) 100
 }
 
 .missao{
-    padding: 16px;
+    padding: 32px;
+    width: 100%;
+    max-width: 600px;
+}
+.bussiness{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer{
